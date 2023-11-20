@@ -1,0 +1,141 @@
+body {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h2 {
+  font-size: 4rem;
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+}
+
+h3 {
+  font-size: 2rem;
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+}
+
+h4 {
+  font-size: 1.4rem;
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+}
+
+h5 {
+  font-size: 1rem;
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+}
+
+header {
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 10px 15px;
+}
+
+nav ul li a {
+  color: seashell;
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+.banner {
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-header {
+  background-color: black;
+  width: 100%;
+}
+
+.tea-of-the-month {
+  padding-top: 50px;
+}
+
+.tea-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tea-card img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.locations {
+  height: 500px;
+  margin-top: 50px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+}
+
+.location-card {
+  width: 300px;
+  background-color: black;
+  padding: 40px 0;
+  margin: 15px 20px;
+}
+
+.footer-one {
+  height: 200px;
+}
+
+.footer-one h2 {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-one h5 {
+  padding: 10px;
+}
+
+.footer-two {
+  text-align: left;
+}
